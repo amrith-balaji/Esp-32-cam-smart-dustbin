@@ -36,6 +36,15 @@ to upload code to the ESP32-CAM using Arduino IDE, follow the next steps:
 5) for any errors in these steps , refer to online sources for help
    
 # Part - II The frame
-3D Print the three stl files given 
+3D Print the four stl files given 
 ## Assembly :
-1) 
+1) the servo is placed between the rods pertruding outwards in the file - Dustbin_camera-stand.stl , with the stand for the camera on top
+2) The servo is placed on the cutout given in the file - Dustbin_body.stl
+3) Place for the servo horn is left in the file - Dustbin_lid.stl
+4) A small hole is give in both the files - Dustbin_lid & Dustbin_body.stl for a rod to act as support
+5) Dustbin_cover is placed above the body of the dustbin to help avoid errors in object identification
+
+The final assembly looks like this :
+![IMG_7555](https://github.com/amrith-balaji/Esp-32-cam-smart-dustbin/assets/124582454/16c6623b-a3a0-45db-abc2-5c89150ef906)
+![IMG_7554](https://github.com/amrith-balaji/Esp-32-cam-smart-dustbin/assets/124582454/0645c677-f799-4998-b3d8-8f8a20f3097f)
+
