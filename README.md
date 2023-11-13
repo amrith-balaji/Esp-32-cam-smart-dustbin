@@ -36,3 +36,6 @@ to upload code to the ESP32-CAM using Arduino IDE, follow the next steps:
 5) for any errors in these steps , refer to online sources for help
    
 # Part - II The frame
+3D Print the three stl files given 
+## Assembly :
+1) 
