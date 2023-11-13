@@ -1,7 +1,7 @@
 ## Esp-32-cam-smart-dustbin
 Uses the power of AI and object detection to segregate dry and wet waste
 
-Parts Requied : 
+##Parts Requied : 
 
 Esp-32 cam    - 1x (Brains)
 Servo (9g)    - 1x (Motor)
