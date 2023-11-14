@@ -48,3 +48,17 @@ The final assembly looks like this :
 ![IMG_7555](https://github.com/amrith-balaji/Esp-32-cam-smart-dustbin/assets/124582454/16c6623b-a3a0-45db-abc2-5c89150ef906)
 ![IMG_7554](https://github.com/amrith-balaji/Esp-32-cam-smart-dustbin/assets/124582454/0645c677-f799-4998-b3d8-8f8a20f3097f)
 
+# Part - III data aquisition and training 
+## Data Aquisition :
+1) Download the Esp32 cam eloquent library from the library manager in arduino or the github : ``` https://github.com/eloquentarduino/EloquentEsp32cam ```
+2) execute the program 26_Collect_Images found in : File > Examples > ELoquentEsp32cam > 26_Collect_Images
+3) enter your SSID & Password and upload the code
+4)  you should get the following serial monitor output : ![image](https://github.com/amrith-balaji/Esp-32-cam-smart-dustbin/assets/124582454/7fc60c0b-c0b6-4349-ac52-cf39c075a1dd)
+5)  Type the ip address in your browser and you should end up in the following webpage : ![image](https://github.com/amrith-balaji/Esp-32-cam-smart-dustbin/assets/124582454/e06f542e-66cf-4cc9-bc44-d29c1db4ab3a)
+6)  Collect the images and enter the label for them . The label should be corresponding to the image as it is important for the later steps. (eg. image of a banana , label: banana)
+
+## Training the model
+1) login to edge impulse : ``` https://edgeimpulse.com ``` and click on new project
+2) click on add data. Select upload mode as select a folder and upload your files
+3) 
+
